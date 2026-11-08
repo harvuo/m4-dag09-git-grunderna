@@ -1,5 +1,5 @@
 # Dag 9 · Git-grunderna
-
+# Här har jag ändrat så att det är min fil, d.v.s. Harri bagare 
 *Modul 4, UI/UX & Frontendutveckling, Lexicon IT-Proffs*
 
 ## Vad du ska göra idag
@@ -22,19 +22,19 @@ Fastnar du: skriv ner exakt var och vad du försökt, och ta det först i nästa
 
 ## Uppgiften steg för steg
 
-### Steg 1. Kontrollera Git
+### Steg 1. Kontrollera Git √
 
 Öppna terminalen i VS Code. Skriv `git --version`. Du ska få ett versionsnummer. Skriv sedan `git config user.name` och `git config user.email`. Saknas något: `git config --global user.name "Ditt Namn"` och motsvarande för e-post.
 
-### Steg 2. Titta på läget
+### Steg 2. Titta på läget √
 
 I mappen du klonade: `git status`. Läs vad det står, ord för ord. Du ska se "nothing to commit, working tree clean".
 
-### Steg 3. Din första ändring och commit
+### Steg 3. Din första ändring och commit √
 
 Ändra titeln i `index.html` till något eget. Kör `git status` (filen är röd), `git add index.html` (grön), `git commit -m "Ändra sidans titel"`. Kör `git log --oneline` och se din commit.
 
-### Steg 4. Gör fem commits till
+### Steg 4. Gör fem commits till 
 
 Gör fem ytterligare små ändringar, en i taget, och gör en commit för varje:
    1. ändra en rubriktext
